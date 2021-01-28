@@ -9,54 +9,60 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play D.lab Game Prototype.</tw-noscript></noscript></tw-story>
-<tw-storydata name="D.lab Game Prototype" startnode="1" creator="Twine" creator-version="2.3.11" ifid="58535DE0-2E88-472C-8B1D-81681191FE57" zoom="1" format="Harlowe" format-version="3.2.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Game Design Idea" tags="" position="861,367.5" size="100,100">* You are a casual normal person that has the life of dreams. You have no problems going around and living as who you are. You go around buying clothing, accesories, whatever you like. 
+<tw-storydata name="D.lab Game Prototype" startnode="1" creator="Twine" creator-version="2.3.12" ifid="58535DE0-2E88-472C-8B1D-81681191FE57" zoom="1" format="Harlowe" format-version="3.2.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Game Design Idea" tags="" position="628,0" size="100,100">* You are a casual normal person that has the life of dreams. You have no problems going around and living as who you are. You go around buying clothing, accesories, whatever you like. 
 * You then go to sleep and become someone completely different the next morning.
 * You walk around in a different atmosphere and discover what it feels like to be judged by who you are.
 
-* [[Introduction-&gt;Introduction]]</tw-passagedata><tw-passagedata pid="2" name="Introduction" tags="" position="859,518.5" size="100,100">You wake up and remember you need to go get food from the market. You get ready to go out of your house and head towards your car.
+* [[Introduction-&gt;Introduction]]</tw-passagedata><tw-passagedata pid="2" name="Introduction" tags="" position="626,118.5" size="100,100">You wake up and remember you need to go get food from the market. You get ready to go out of your house and head towards your car.
 Once you go on your way, you encounter multiple people eager to talk to you. You get offers and support from people around you.
 It is a seemingly normal day for you.
 You arrive at your car, but think to yourself how you would like to travel that day.
 
 You decide to do 1 of 2 options:
 [[Take the car-&gt;Take The Car]]
-[[Walk-&gt;Walk to Destinations]]</tw-passagedata><tw-passagedata pid="3" name="Take The Car" tags="" position="786,668.5" size="100,100">It seems relatively normal while driving there. 
+[[Walk-&gt;Walk to Destinations]]</tw-passagedata><tw-passagedata pid="3" name="Take The Car" tags="" position="553,268.5" size="100,100">It seems relatively normal while driving there. 
 There is a car ahead of you with a seemingly urging meeting they have to get to.
 When focusing on this you dont realize the stop light ahead of you and neither did the person ahead of you notice. 
 You give a love tap to the back of their car, but they seem to have higher priorities.
 They leave with urgency, and you don&#39;t have to worry about anything.
-Eventually, you arrive at the market [[at the market-&gt;Arrive at The Food Market]]</tw-passagedata><tw-passagedata pid="4" name="Walk to Destinations" tags="" position="935,668.5" size="100,100">You start to walk towards the food market.
+Eventually, you arrive at the market [[at the market-&gt;Arrive at The Food Market]]
+(set: $day1car to true)</tw-passagedata><tw-passagedata pid="4" name="Walk to Destinations" tags="" position="702,268.5" size="100,100">You start to walk towards the food market.
 You get distracted by someone asking you for directions, people asking to take pictures, and other stuff.
-You don&#39;t take much note of what was happening and went about your day.
-Eventually, you [[arrive at the market-&gt;Arrive at The Food Market]].</tw-passagedata><tw-passagedata pid="5" name="Arrive at The Food Market" tags="" position="871,817.5" size="100,100">You go in and get offered some coupons the store uses out of their own generosity.
+On your way there you bump into someone. They seem to have been going to some sort of meeting, as they had many papers and folders on them. All of thier things fall on the sidewalk. Your first instinct is to help them. You bend down and help pick up all of their belongings. There seems to be no hard feelings and you both go about your day.
+Nothing much happens after that, so you continue to walk to the market.
+Eventually, you [[arrive at the market-&gt;Arrive at The Food Market]].
+(set: $day1car to false)</tw-passagedata><tw-passagedata pid="5" name="Arrive at The Food Market" tags="" position="638,417.5" size="100,100">You go in and get offered some coupons the store uses out of their own generosity.
 You make your purchases and end up being a dollar short of what you need. 
 Without any hesitation the cashier offers some help and dismisses you, a little favor.
 you say your thanks and leave. When walking off, you notice some loose change in your pockets, turns out you had the dollar.
 
 You decide to do 1 of 2 options:
 [[Go back and give the money-&gt;Go back and give the money]]
-[[Keep going content with the extra cash you have on you-&gt;Keep going without paying it back]]</tw-passagedata><tw-passagedata pid="6" name="Go back and give the money" tags="" position="792,968.5" size="100,100">You turn around and decide to do your good deed of the day.
+[[Keep going content with the extra cash you have on you-&gt;Keep going without paying it back]]</tw-passagedata><tw-passagedata pid="6" name="Go back and give the money" tags="" position="559,568.5" size="100,100">You turn around and decide to do your good deed of the day.
 You go back in the store and give teh cashier the missing money.
 &quot;Alright then, youre all good to go. Thanks for coming back, you really helped someone today.&quot;
 You go back out and head on over to your apartment again, groceries in hand.
 [[Go to your apartment.-&gt;Walk home and give money back]]
-</tw-passagedata><tw-passagedata pid="7" name="Keep going without paying it back" tags="" position="943,968.5" size="100,100">&quot;Well, too late to go back now. Might as well keep going and keep this money, who knows when it&#39;ll come in handy.&quot;
+
+(set: $day1money to false)</tw-passagedata><tw-passagedata pid="7" name="Keep going without paying it back" tags="" position="710,568.5" size="100,100">&quot;Well, too late to go back now. Might as well keep going and keep this money, who knows when it&#39;ll come in handy.&quot;
 You start to walk towards your apartment to relax for the day, groceries in hand and some extra cash.
 
-[[Go to your apartment.-&gt;Go to apartment without paying]]</tw-passagedata><tw-passagedata pid="8" name="Walk home and give money back" tags="" position="792,1118.5" size="100,100">On your way to the Apartment, you notice a girl scout troop&#39;s desk open. It says &quot;Chocomint cookies $1&quot;
+[[Go to your apartment.-&gt;Go to apartment without paying]]
+(set: $day1money to true)</tw-passagedata><tw-passagedata pid="8" name="Walk home and give money back" tags="" position="559,718.5" size="100,100">On your way to the Apartment, you notice a girl scout troop&#39;s desk open. It says &quot;Chocomint cookies $1&quot;
 They are selling your favorite cookie.
 You look into your pockets and realize the remaining of your money went back to the cashier. You feel bad but keep going on with your day, until the girls actually offer you some cookies. They appearently saw what you did and decided to reward you. You go back to the apartment feeling even better than before.
 
-[[Arrive home-&gt;Arrive to the Apartment Day 1]]</tw-passagedata><tw-passagedata pid="9" name="Go to apartment without paying" tags="" position="943,1118.5" size="100,100">On your way to the Apartment, you notice a girl scout troop&#39;s desk open. It says &quot;Chocomint cookies $1&quot;
+[[Arrive home-&gt;Arrive to the Apartment Day 1]]</tw-passagedata><tw-passagedata pid="9" name="Go to apartment without paying" tags="" position="710,718.5" size="100,100">On your way to the Apartment, you notice a girl scout troop&#39;s desk open. It says &quot;Chocomint cookies $1&quot;
 They are selling your favorite cookie. You get the money you saved at the mart and buy a box. &quot;Thank you for your patrionage, please come again.&quot; 
 You go to your apartment cookies in hand, feeling even better than before.
 
-[[Arrive home-&gt;Arrive to the Apartment Day 1]]</tw-passagedata><tw-passagedata pid="10" name="Arrive to the Apartment Day 1" tags="" position="864,1260.5" size="100,100">You arrive at your apartment and start to eat the cookies you have gotten. 
+[[Arrive home-&gt;Arrive to the Apartment Day 1]]</tw-passagedata><tw-passagedata pid="10" name="Arrive to the Apartment Day 1" tags="" position="631,860.5" size="100,100">You arrive at your apartment and start to eat the cookies you have gotten. 
 After you are done putting all your groceries in the fridge, and finishing other various chores, you decide to call it a day and head to sleep.
 You close your eyes and wonder off to sleep.
 
-[[End Day 1-&gt;End of Day 1]]</tw-passagedata><tw-passagedata pid="11" name="End of Day 1" tags="" position="863,1411.5" size="100,100">(after:1s)[You feel off as you doze away...](after:1s)[(click-goto:?page,&quot;Day 2 Start&quot;)]
-</tw-passagedata><tw-passagedata pid="12" name="Day 2 Start" tags="" position="1285,515.5" size="100,100">You awaken to the sound of people talking outside of your door.
+[[End Day 1-&gt;End of Day 1]]</tw-passagedata><tw-passagedata pid="11" name="End of Day 1" tags="" position="630,1011.5" size="100,100">You feel off as you doze away...(after:1s)[(click-goto:?page,&quot;Day 2 Start&quot;)] 
+(after:1s)[click to continue]
+</tw-passagedata><tw-passagedata pid="12" name="Day 2 Start" tags="" position="1052,115.5" size="100,100">You awaken to the sound of people talking outside of your door.
 You feel off, as if someone has affected the way your day is going to go...
 You decide to ignore it, just do what you meant to do today.
 You look into your fridge, empty.
@@ -68,46 +74,59 @@ You arrive at your car, but think to yourself how you would like to travel that 
 You decide to do 1 of 2 options:
 [[Take your car-&gt;Day 2 Take the Car]]
 [[Walk to your destination-&gt;Day 2 Walk to the store]]
-</tw-passagedata><tw-passagedata pid="13" name="Day 2 Take the Car" tags="" position="1186,675.5" size="100,100">(if:(history: where it is &quot;Take The Car&quot;)&#39;s length is 0)[You start to drive.
+</tw-passagedata><tw-passagedata pid="13" name="Day 2 Take the Car" tags="" position="953,275.5" size="100,100">(if: $day1car is false)[You start to drive.
 After a bit, it seems normal. Until you notice somebody ahead of you that seems to be in a rush. 
 When focusing on him, you dont notice the stop lights ahead of you, neither does the guy ahead of you.
 You end up giving him a love tap to the back of his car.
 But today you got off lucky, he may have yelled at you from his car but nothing much came out of it.
 He drove away staring coldly at you.
 Once that is over, [[you arrive at the market.-&gt;Day 2 Arrive at the market]]]
-(if:(history: where it is &quot;Take The Car&quot;)&#39;s length &gt;= 1)[You start to drive.
+(if: $day1car is true)[You start to drive.
 After a bit, it seems normal. Until you notice somebody ahead of you that seems to be in a rush. 
 When focusing on him, you dont notice the stop lights ahead of you, neither does the guy ahead of you.
 You end up giving him a love tap to the back of his car.
 Strange... it&#39;s like this has happened to him before. 
 Either way, he got out, furious, screeming about how people can be stupid and yadda yadda.
 After seriuosly mouthing you off, he storms away in his car, luckily nothing happened to you but a few wasted minutes and an annoyed feeling.
-Once that is over, [[you arrive at the market.-&gt;Day 2 Arrive at the market]]]</tw-passagedata><tw-passagedata pid="14" name="Day 2 Walk to the store" tags="" position="1390,681.5" size="100,100">You start walking to the store.
+Once that is over, [[you arrive at the market.-&gt;Day 2 Arrive at the market]]]</tw-passagedata><tw-passagedata pid="14" name="Day 2 Walk to the store" tags="" position="1157,281.5" size="100,100">(if: $day1car is false)[You start walking to the store.
 You notice no one really wants to talk to you when walking there.
 People actively avoid you as you go there.
-You dont really mind it and keep on walking.
-Eventually [[you arrive at the market.-&gt;Day 2 Arrive at the market]]</tw-passagedata><tw-passagedata pid="15" name="Day 2 Arrive at the market" tags="" position="1295,830.5" size="100,100">You arrive at the market and get the groceries you need.
+When walking you bump into someone who seems to be busy, as they were carrying a lot of papers and folders on them. They look at you extrememly annoyed. They mention somehting about the same thing happening to them the day before with another guy. This time, they dont take it too lightly. You get yelled at and as you try to help, they yell at you to go away.
+You feel a sense of guilt, but also wonder what could have happened the day before in order to get them this annoyed. You continue on.]
+
+(if: $day1car is true)[You start walking to the store.
+You notice no one really wants to talk to you when walking there.
+People actively avoid you as you go there.
+When walking you bump into someone who seems to be busy, as they were carrying a lot of papers and folders on them. They look at you with a very worried face. They start to scramble and pick up their papers as quickly as possible, obviously trying to avoid any sort of contact. You try to help but they end up telling you to leave them alone, making you go away. You walk away from the guy as he continues to pick up his belongings. You feel a sense of guilt as you walk away, continuing on your way to the market.]
+
+Eventually [[you arrive at the market.-&gt;Day 2 Arrive at the market]]</tw-passagedata><tw-passagedata pid="15" name="Day 2 Arrive at the market" tags="" position="1062,430.5" size="100,100">You arrive at the market and get the groceries you need.
 You go to the cashier and load up all your items, turns out you are a dollar short.
 The cashier looks at you and waits, waiting for you to do something about it. 
-(if:(history: where it is &quot;Go back and give the money&quot;)&#39;s length is not 0)[After a long awkward silence, the cashier says &quot;You know what, fine, you&#39;re lucky a guy yesterday was able to give me this dollar I had given him, just get out of here.&quot; 
+(if: $day1money is false)[After a long awkward silence, the cashier says &quot;You know what, fine, you&#39;re lucky a guy yesterday was able to give me this dollar I had given him, just get out of here.&quot; 
 You go out and realize you had the money needed to give, but needed more time to get it out of your pockets.
 You decide it&#39;s time to [[go to your apartment.-&gt;walk to apartment with money]]]
-(if:(history: where it is &quot;Keep going without paying it back&quot;)&#39;s length is not 0)[After frantically searching your pockets, you are able to scrounge up enough change to pay the cashier. They say to you, &quot;Finally, here are your bags&quot; and signals you to get out.
-[[You leave the store.-&gt;walk to apartment without money]]]</tw-passagedata><tw-passagedata pid="16" name="walk to apartment with money" tags="" position="1418,978.5" size="100,100">On your way to the Apartment, you notice a girl scout troop&#39;s desk open. It says &quot;Chocomint cookies $1&quot;
-They are selling your favorite cookie. You get the money you saved at the store and get ready to buy a box.
+(if: $day1money is true)[After frantically searching your pockets, you are able to scrounge up enough change to pay the cashier. They say to you, &quot;Finally, here are your bags&quot; and signals you to get out.
+[[You leave the store.-&gt;walk to apartment without money]]]</tw-passagedata><tw-passagedata pid="16" name="walk to apartment with money" tags="" position="937,570.5" size="100,100">On your way to the Apartment, you notice a girl scout troop&#39;s desk open. It says &quot;Chocomint cookies $1&quot;
+They are selling your favorite cookie. You get the money you could have spent at the store and get ready to buy a box.
 When you go up to the table, the troops say &quot;Sorry, but due to increased demand, the cookies are now $2, we should probably change that sign.&quot;
 Well, it seems like someone has inflated the price of girl scout cookies, that&#39;s awesome.
 You go to your apartment no cookies in hand, feeling slight dissapointment.
 
-[[Arrive home-&gt;Arrive home Day 2 without money]]</tw-passagedata><tw-passagedata pid="17" name="walk to apartment without money" tags="" position="1188,969.5" size="100,100">On your way to the Apartment, you notice a girl scout troop&#39;s desk open. It says &quot;Chocomint cookies $1&quot;
+[[Arrive home-&gt;Arrive home Day 2 without money]]</tw-passagedata><tw-passagedata pid="17" name="walk to apartment without money" tags="" position="1166,576.5" size="100,100">On your way to the Apartment, you notice a girl scout troop&#39;s desk open. It says &quot;Chocomint cookies $1&quot;
 They are selling your favorite cookie.
 You look into your pockets and see that you have no more money, as the rest has gone to the cashier.
 You look in dissapointment as you walk away from the stand.
-The people at the stand don&#39;t say anything and watch youwalk away, whispering things amongst themselves.
+The people at the stand don&#39;t say anything and watch you walk away, whispering things amongst themselves.
 
-[[Arrive home-&gt;Arrive home Day 2 without money]]</tw-passagedata><tw-passagedata pid="18" name="Arrive home Day 2 without money" tags="" position="1300,1124.5" size="100,100">Well, youve just about had it with everything and decide to go to bed as soon as you get home.
+[[Arrive home-&gt;Arrive home Day 2 without money]]</tw-passagedata><tw-passagedata pid="18" name="Arrive home Day 2 without money" tags="" position="1067,724.5" size="100,100">Well, youve just about had it with everything and decide to go to bed as soon as you get home.
 You look at yourself and wonder why people look at you this way, but don&#39;t think about it too much before you get in bed.
-You wonder what it would be like to be a different person, someone who can walk around and want to be talked to. Someone completely different...</tw-passagedata></tw-storydata>
+You wonder what it would be like to be a different person, someone who can walk around and want to be talked to. Someone completely different...
+
+[[You start to wonder...-&gt;Wondering page]]</tw-passagedata><tw-passagedata pid="19" name="Wondering page" tags="" position="1075,883.5" size="100,100">(if: $day1car is false)[You start to wonder what happened on the side walk that day, maybe someone else had changed something about it?]
+(if: $day1car is true)[You start to wonder what happened on the road today, maybe something happened, or someone had done something that would change how it went for you?]
+(if: $day1money is false)[You wonder who and why someone gave that cashier some extra money. Maybe someone had done it in good will? Whatever it is, it ended up helping you out.]
+(if: $day1money is true)[You start to wonder why the cashier was acting the way they were, maybe someone else has ticked them off? Or maybe they someone out there has taken some money from them.]
+</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">"use strict";var _slicedToArray=function(){return function(e,t){if(Array.isArray(e))return e;if(Symbol.iterator in Object(e))return function(e,t){var n=[],r=!0,i=!1,a=void 0;try{for(var o,s=e[Symbol.iterator]();!(r=(o=s.next()).done)&&(n.push(o.value),!t||n.length!==t);r=!0);}catch(e){i=!0,a=e}finally{try{!r&&s.return&&s.return()}finally{if(i)throw a}}return n}(e,t);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}!function(){
 /**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
